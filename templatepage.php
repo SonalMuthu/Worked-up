@@ -33,6 +33,7 @@ echo "<p></p>";
 echo "<h2>".$pagename."</h2>";
 echo "<p> Text Here";
 
+
 //display window title
 echo "<title>".$pagename."</title>";
 //include head layout 
@@ -48,6 +49,24 @@ echo "<p> Text Here";
 echo "<title>".$pagename."</title>";
 //include head layout 
 include ("headfile.html");
+
+echo "<p></p>";
+//display name of the page and some random text
+echo "<h2>".$pagename."</h2>";
+echo "<p> Text Here";
+
+//include head layout
+//display window title
+echo "<title>".$pagename."</title>";
+//include head layout 
+include ("headfile.html");
+
+echo "<p></p>";
+//display name of the page and some random text
+echo "<h2>".$pagename."</h2>";
+echo "<p> Text Here";
+
+//include head layout
 
 echo "<p></p>";
 //display name of the page and some random text
