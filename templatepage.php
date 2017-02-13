@@ -58,6 +58,44 @@ echo "<title>".$pagename."</title>";
 //include head layout 
 include ("headfile.html");
 
+//display window title
+echo "<title>".$pagename."</title>";
+//include head layout 
+include ("headfile.html");
+
+echo "<p></p>";
+//display name of the page and some random text
+echo "<h2>".$pagename."</h2>";
+echo "<p> Text Here";
+
+//include head layout
+
+//include head layout
+//display window title
+echo "<title>".$pagename."</title>";
+//include head layout 
+include ("headfile.html");
+
+
+//display window title
+echo "<title>".$pagename."</title>";
+//include head layout 
+include ("headfile.html");
+
+echo "<p></p>";
+//display name of the page and some random text
+echo "<h2>".$pagename."</h2>";
+echo "<p> Text Here";
+
+//include head layout
+
+//include head layout
+//display window title
+echo "<title>".$pagename."</title>";
+//include head layout 
+include ("headfile.html");
+
+
 echo "<p></p>";
 //display name of the page and some random text
 echo "<h2>".$pagename."</h2>";
