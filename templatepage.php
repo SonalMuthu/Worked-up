@@ -83,14 +83,5 @@ include ("headfile.html");
 //inut
 //include head layout
 include("footfile.html");
-//include head layout 
-include ("headfile.html");
-
-//include head layout
-
-
-//inut
-//include head layout
-include("footfile.html");
 
 ?>
