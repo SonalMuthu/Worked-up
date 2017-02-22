@@ -71,14 +71,7 @@ include ("headfile.html");
 //include head layout
 
 
-//include head layout
-
-echo "<p></p>";
-//display name of the page and some random text
-echo "<h2>".$pagename."</h2>";
-echo "<p> Text Here";
-
-//include head layout
+//includ
 //include head layout
 include("footfile.html");
 
