@@ -15,13 +15,6 @@ print_r($_SESSION);
 
 }
 
-echo"<table boarder=1;>";
-echo"<tr>";
-	echo"<th>Product Name</th>";
-	echo"<th>Product Price</th>";
-	echo"<th>Quantity</th>";
-	echo"<th>Sub Total</th>";
-echo"</tr>";
 $total=0;
 if(isset($_SESSION['basket'])){
 	foreach($_SESSION['basket']as $key=>$value){
