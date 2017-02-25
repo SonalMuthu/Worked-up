@@ -38,6 +38,12 @@ if(isset($_SESSION['basket'])){
 			$sql="select*from product where prodid='".$key."';";
 			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
 			$thearrayprod=mysqli_fetch_array($exeSQL);
+			 where prodid='".$key."';";
+			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
+			$thearrayprod=mysqli_fetch_array($exeSQL)
+			 where prodid='".$key."';";
+			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
+			$thearrayprod=mysqli_fetch_array($exeSQL)
 			
 			echo"<tr>
 					<td>".$thearrayprod['prodName']."</td>
