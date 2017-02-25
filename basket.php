@@ -15,7 +15,31 @@ print_r($_SESSION);
 
 }
 
-
+$total=0;
+if(isset($_SESSION['basket'])){
+	foreach($_SESSION['basket']as $key=>$value){
+		if(!$key==0){
+			$sql="select*from product where prodid='".$key."';";
+			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
+			$thearrayprod=mysqli_fetch_array($exeSQL);
+			
+			echo"<tr>
+			if(isset($_SESSION['basket'])){
+	foreach($_SESSION['basket']as $key=>$value){
+		if(!$key==0){
+			$sql="select*from product where prodid='".$key."';";
+			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
+			$thearrayprod=mysqli_fetch_array($exeSQL);
+			
+			echo"<tr>
+			if(isset($_SESSION['basket'])){
+	foreach($_SESSION['basket']as $key=>$value){
+		if(!$key==0){
+			$sql="select*from product where prodid='".$key."';";
+			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
+			$thearrayprod=mysqli_fetch_array($exeSQL);
+			
+			echo"<tr>
 					<td>".$thearrayprod['prodName']."</td>
 					<td>".$thearrayprod['prodPrice']."</td>
 					<td>".$value."</td>
