@@ -34,16 +34,7 @@ if(isset($_SESSION['basket'])){
 			echo"<tr>
 			if(isset($_SESSION['basket'])){
 	foreach($_SESSION['basket']as $key=>$value){
-		if(!$key==0){
-			$
-			$exeSQL=mysqli_query($conn,$sql)or die (mysqli_error($conn));
-			$thearrayprod=mysqli_fetch_array($exeSQL)
-			
-			echo"<tr>
-					<td>".$thearrayprod['prodName']."</td>
-					<td>".$thearrayprod['prodPrice']."</td>
-					<td>".$value."</td>
-					<td>".$value *$thearrayprod['prodPrice'].".00 </td>
+		if(!$kedPrice'].".00 </td>
 					</tr>";
 			$total+=$value*$thearrayprod['prodPrice'];
 		}
