@@ -40,11 +40,6 @@ if(isset($_SESSION['basket'])){
 		}
 	}
 }
-		echo"<tr>
-			<td colspan='3'>Total</td>
-			<td>$total.00</td>
-			</tr>
-			</table>";
 			
 echo "<p><a href='clearbasket.php'>Clear the basket</a></p>";
 echo"<p>New workedUp customers<a href='register.php'>Register</a></p>";
