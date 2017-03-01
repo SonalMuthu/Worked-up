@@ -41,11 +41,4 @@ if(isset($_SESSION['basket'])){
 	}
 }
 			
-echo "<p><a href='clearbasket.php'>Clear the basket</a></p>";
-echo"<p>New workedUp customers<a href='register.php'>Register</a></p>";
-echo"<p>Registerd workedUp customers<a href='login.php'>Ogin</a></p>";
-
-
-//include head layout
-include("footfile.html");
 ?>
